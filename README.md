@@ -1,2 +1,2 @@
-# js-leetcode-problems
-My JavaScript LeetCode problem-solving practice and solutions.
+# JavaScript journey
+My JavaScript problem-solving practice and solutions.
