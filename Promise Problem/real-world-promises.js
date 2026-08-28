@@ -37,14 +37,11 @@ async function loadFoodApp() {
     getOffers(),
     getDeliveryEstimate(),
   ]);
-    
-    console.log(orderInfo[0].value.name);
-    console.log(orderInfo[1].value.join("|"));
-    console.log(orderInfo[2].reason);
-    console.log(orderInfo[3].value);
 
-
-
+  console.log(orderInfo[0].value.name);
+  console.log(orderInfo[1].value.join("|"));
+  console.log(orderInfo[2].reason);
+  console.log(orderInfo[3].value);
 }
 
 loadFoodApp();
