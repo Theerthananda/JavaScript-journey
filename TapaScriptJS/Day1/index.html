@@ -1,13 +1,26 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>day1</title>
+
+    <!-- defer: JavaScript executes after the HTML is fully parsed and the DOM is ready -->
     <script defer src="index.js"></script>
+
+    <!-- async: JavaScript executes as soon as it finishes downloading, without waiting for HTML parsing to finish -->
+    <script async src="index.js"></script>
+
+    <!-- Normal script: JavaScript executes immediately after downloading, blocking HTML parsing -->
+    <!-- <script src="index.js"></script> -->
   </head>
   <body>
     <h2>Welcome to JS !</h2>
     <div id="divId"></div>
+
+    <!-- Another good way to add JavaScript: place the script at the end of the body.
+     The HTML elements are parsed first, so the DOM is ready when JavaScript executes. -->
+    <script src="index.js"></script>
   </body>
 </html>
