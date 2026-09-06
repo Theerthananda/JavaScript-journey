@@ -7,3 +7,5 @@ while (num != 0) {
 }
 
 console.log(rev);
+
+
